@@ -1,11 +1,15 @@
-header { background-color:#800000; display:flex; margin-bottom: 50px;}
-nav.top { text-align:center; color:#fff; display:flex; flex:1; justify-content:right;}
-nav.top a.index {color:#fff;}
+header { background-color:#800000; display:flex; margin-bottom: 50px; align-items: center; padding: 10 0 10 20px; position: sticky; width: 100%}
+h1.body {margin-top: 100px}
+nav.top { text-align:center; color:#fff; display:flex; flex:1; justify-content:right; margin-right: 50px;}
+nav.top a {color:#fff;}
 .body {width: 1200px; align-text: center; margin: auto;}
 hr {width: 1200px; align-text: center; margin: auto;}
 p.p { margin-bottom:50px; font-family: Arial, Helvetica, sans-serif;}
 table {margin-top:50px; margin-bottom:50px; margin-left: 120px; width: 1200px; align-text: center; font-family: Arial, Helvetica, sans-serif;}
 td, th { padding: 10px; text-align: center;}
+.random_photo { height: 100px; width: 100px; margin-left: 20px; border-radius: 10%;}
+nav.top span { color:#fff; margin: 0 20px;}
+h1.time-schedule { text-align: center; font-family: Arial, Helvetica, sans-serif; margin-bottom: 50px;}
 #content { font-family: Arial, Helvetica, sans-serif;width: 1000px; margin:0 auto 100px;}
 .grid { display:grid; grid-template-columns:repeat(11, 1fr); gap:15px;}
 .grid-1 { grid-column: span 1;}
